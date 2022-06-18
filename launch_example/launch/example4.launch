@@ -1,7 +1,0 @@
-<launch>
-
-  <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" >
-    <param name="count" value="100"/>  
-  </node>
-
-</launch>

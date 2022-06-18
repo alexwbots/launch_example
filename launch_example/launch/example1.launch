@@ -1,5 +1,0 @@
-<launch>
-
-  <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" />
-
-</launch>
