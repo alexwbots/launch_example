@@ -1,0 +1,9 @@
+<launch>
+
+  <arg name="count_value" value="50"/>
+
+  <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" >
+    <param name="count" value="$(arg count_value)"/>  
+  </node>
+
+</launch>

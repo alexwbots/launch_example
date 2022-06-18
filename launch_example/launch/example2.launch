@@ -1,0 +1,6 @@
+<launch>
+
+  <include file="$(find launch_example)/launch/example1.launch" />
+  <node pkg="launch_example" name="Subscriber" type="Subscriber.py" />
+
+</launch>
