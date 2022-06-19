@@ -1,6 +1,6 @@
 <launch>
-
-  <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" />
-  <node pkg="launch_example" name="Subscriber" type="Subscriber.py" output="screen" />
-
+  <group ns="example">
+    <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" />
+    <node pkg="launch_example" name="Subscriber" type="Subscriber.py" output="screen" />
+  </group>
 </launch>
