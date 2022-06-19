@@ -1,7 +1,7 @@
 <launch>
 
   <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" >
-    <param name="count" value="100"/>  
+    <rosparam file="$(find launch_example)/param/parameters.yaml" command="load" />
   </node>
 
 </launch>
