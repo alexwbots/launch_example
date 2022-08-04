@@ -28,3 +28,11 @@ Define the value, to start the count, outside the node. This value cannot be cha
 ### Example 7 (roslaunch launch_example example7.launch)
 
 Define the value, to start the count, outside the node. This value can be change from the terminal, but if not it has a default value.
+
+´´´
+algo
+´´´
+
+### Example 8 (roslaunch launch_example example8.launch)
+
+Use the parameters save it in a file inside the config directory.
