@@ -25,13 +25,9 @@ Add a parameter specified for the launch file. This parameter make the count sta
 
 Define the value, to start the count, outside the node. This value cannot be change from the terminal.
 
-### Example 7 (roslaunch launch_example example7.launch)
+### Example 7 (roslaunch launch_example example7.launch count_value:=70)
 
 Define the value, to start the count, outside the node. This value can be change from the terminal, but if not it has a default value.
-
-´´´
-algo
-´´´
 
 ### Example 8 (roslaunch launch_example example8.launch)
 
