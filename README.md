@@ -32,3 +32,7 @@ Define the value, to start the count, outside the node. This value can be change
 ### Example 8 (roslaunch launch_example example8.launch)
 
 Use the parameters save it in a file inside the config directory.
+
+### Example 9 (roslaunch launch_example example9.launch)
+
+Remapping a topic, changing its name from counter to count.
