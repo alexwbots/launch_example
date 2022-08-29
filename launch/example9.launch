@@ -1,0 +1,6 @@
+<launch>
+
+  <remap from="counter" to="count" />
+  <node pkg="launch_example" name="Publisher" type="Publisher.py" output="screen" >
+
+</launch>
